@@ -7,8 +7,16 @@ const cacheFiles = [
     './js/main.js',
     './js/restaurant_info.js',
     './css/styles.css',
-    './data/restaurants.json',
-    './img/'
+    './img/1_medium.jpg',
+    './img/2_medium.jpg',
+    './img/3_medium.jpg',
+    './img/4_medium.jpg',
+    './img/5_medium.jpg',
+    './img/6_medium.jpg',
+    './img/7_medium.jpg',
+    './img/8_medium.jpg',
+    './img/9_medium.jpg',
+    './img/10_medium.jpg'
 ];
 
 /**
