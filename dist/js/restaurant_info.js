@@ -160,18 +160,18 @@ createReviewHTML = (review) => {
 
 
     const date = document.createElement('p');
-    date.id = 'review-date';
+    date.id = 'date';
     date.innerHTML = review.date;
     li.appendChild(date);
 
 
     const rating = document.createElement('p');
-    rating.id = 'reviewer-rating';
+    rating.id = 'rating';
     rating.innerHTML = `Rating: ${review.rating}`;
     li.appendChild(rating);
 
     const comments = document.createElement('p');
-    comments.id = 'reviewer-comments';
+    comments.id = 'comments';
     comments.innerHTML = review.comments;
     li.appendChild(comments);
 

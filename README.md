@@ -1,3 +1,5 @@
+gulpfile serves the content on port 8000. To start it, you need to run gulp in the root directory, or you can run python server in dist folder.
+
 # Local Development API Server
 ## Usage
 #### Get Restaurants
