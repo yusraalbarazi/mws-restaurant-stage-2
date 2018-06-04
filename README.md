@@ -1,7 +1,9 @@
-gulpfile serves the content on port 8000. To start it, you need to run gulp in the root directory, or you can run python server in dist folder.
+###### How to Start the server
 
-# Local Development API Server
-## Usage
+``` In the terminal
+$ cd mws-restaurant-stage-2
+$ node server
+```
 #### Get Restaurants
 ```
 curl "http://localhost:1337/restaurants"
@@ -11,44 +13,20 @@ curl "http://localhost:1337/restaurants"
 curl "http://localhost:1337/restaurants/{3}"
 ````
 
-## Architecture
-Local server
-- Node.js
-- Sails.js
+###### How to start client
+gulpfile serves the content on port 8000. To start it, you need to run gulp in the root directory.
 
-## Contributors
+``` In the terminal
+$ cd mws-restaurant-stage-2
+$ gulp
 
-- [Brandy Lee Camacho - Technical Project Manager](mailto:brandy.camacho@udacity.com)
-- [David Harris - Web Services Lead](mailto:david.harris@udacity.com)
-- [Omar Albeik - Frontend engineer](mailto:omaralbeik@gmail.com)
+``` 
 
-## Getting Started
+# Lighthouse scores:
 
-### Development local API Server
-_Location of server = /server_
-Server depends on [node.js LTS Version: v6.11.2 ](https://nodejs.org/en/download/), [npm](https://www.npmjs.com/get-npm), and [sails.js](http://sailsjs.com/)
-Please make sure you have these installed before proceeding forward.
-
-Great, you are ready to proceed forward; awesome!
-
-Let's start with running commands in your terminal, known as command line interface (CLI)
-
-###### Install project dependancies
-```Install project dependancies
-# npm i
-```
-###### Install Sails.js globally
-```Install sails global
-# npm i sails -g
-```
-###### Start the server
-```Start server
-# node server
-```
-### You should now have access to your API server environment
-debug: Environment : development
-debug: Port        : 1337
+Progressive Web App: 91
+Performance: >86
+Accessibility: >90
 
 
-If you find a bug in the source code or a mistake in the documentation, you can help us by
-submitting an issue to our [Waffle Dashboard](https://waffle.io/udacity/mwnd-issues). Even better you can submit a Pull Request with a fix :)
+
