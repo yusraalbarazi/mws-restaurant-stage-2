@@ -28,5 +28,10 @@ Progressive Web App: 91
 Performance: >86
 Accessibility: >90
 
+https://github.com/yusraalbarazi/mws-restaurant-stage-2/blob/master/lighthouse%20scores.png
+
+https://github.com/yusraalbarazi/mws-restaurant-stage-2/blob/master/lighthouse%20scores-2.png
+
+
 
 
