@@ -258,7 +258,7 @@ nav h1 a {
     min-width: 100%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h3 {
     color: #c10b0b;
     font-family: Arial, sans-serif;
     font-size: 14pt;
@@ -405,54 +405,4 @@ nav h1 a {
 
 #restaurant-hours td {
     color: #666;
-}
-
-
-/*=========== MEDIA QUERY FOR WIDE SCREEN SUCH AS LAPTOPS ===========*/
-
-@media screen and (min-width:1150px) {
-    #breadcrumb {
-        width: calc(50% - 80px);
-    }
-    /* Display list items side by side */
-    #breadcrumb li {
-        display: inline;
-    }
-    #restaurants-list li {
-        display: inline-block;
-    }
-    #restaurants-list .restaurant-img {
-        display: inline-block;
-        opacity: 1;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
-    .viewDetails {
-        display: inline-block;
-        opacity: 0.7;
-        transition: .5s ease;
-    }
-    #restaurants-list li:hover .restaurant-img {
-        opacity: 0.3;
-    }
-    #restaurants-list li:focus {
-        outline: 0;
-    }
-    #restaurants-list li:hover {
-        opacity: 0.8;
-        border: solid 3px orange;
-    }
-    #restaurants-list li:hover .viewDetails,
-    #restaurants-list li:focus .viewDetails,
-    #restaurants-list li:active .viewDetails {
-        opacity: 1;
-    }
-    #reviews-list li p {
-        margin: 0 0 10px;
-    }
-    .inside map {
-        max-width: 50%;
-    }
 }
